@@ -1,0 +1,63 @@
+body {
+	background: black;
+	font-family: "Playfair Display", serif;
+}
+
+p {
+	color: black;
+}
+.postcard {
+	background-image: url(https://i.pinimg.com/736x/90/a0/bc/90a0bc463042a0d880abae5b637111e9.jpg);
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 6px;
+	text-align: center;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 0px;
+	margin: 4px 9px;
+}
+
+input {
+	border: none;
+	border-bottom: rgba(128, 128, 128, 0.505) solid thin;
+}
+.postcard-footer {
+	text-align: center;
+}
+.button {
+	background-color: rgb(62, 185, 185);
+	padding: 10px 15px;
+	text-decoration: none;
+	border-color: black;
+	color: white;
+}
+a.button:active {
+	background-color: rgb(45, 99, 99);
+	color: white;
+}
+.brand1 {
+	padding: 0px 8px;
+}
+.brand2 {
+	text-align: right;
+	margin: -32px 3px;
+}
